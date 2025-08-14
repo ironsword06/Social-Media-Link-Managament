@@ -1,0 +1,13 @@
+<div class="auth-container">
+  <app-auth-form
+    [isLoginVisible]="isLoginVisible"
+    [isSignupVisible]="isSignupVisible"
+    [loginForm]="loginForm"
+    [signupForm]="signupForm"
+    [passwordMismatch]="passwordMismatch"
+    (showSignup)="showSignup()"
+    (showLogin)="showLogin()"
+    (login)="login()"
+    (signup)="signup()"
+  ></app-auth-form>
+</div>

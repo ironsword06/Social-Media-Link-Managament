@@ -1,0 +1,49 @@
+.p-dialog .p-dialog-content {
+    padding: 20px;
+  }
+  
+  .p-d-flex {
+    display: flex;
+  }
+  
+  .p-jc-between {
+    justify-content: space-between;
+  }
+  
+  .p-field {
+    margin-bottom: 16px;
+  }
+
+.p-button {
+  background-color: #333;
+  color: white; 
+  border: none;
+  padding: 10px 15px; 
+  font-size: 16px; 
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.p-button i {
+  margin-left: 8px; 
+}
+
+.p-button:hover {
+  background-color: #6A5ACD; 
+  transform: scale(1.05); 
+}
+
+.p-dialog-footer {
+  display: flex;          
+  justify-content: flex-end; 
+  gap: 10px;              
+  margin-top: 20px;       
+}
+
+.helper-text {
+  color: grey;
+  font-size: 12px;
+}

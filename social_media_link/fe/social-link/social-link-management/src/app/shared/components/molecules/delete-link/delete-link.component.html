@@ -1,0 +1,29 @@
+<p-dialog 
+  header="Do you want to delete social media data?" 
+  [(visible)]="visible"
+  [modal]="true"
+  [closable]="true" 
+  (onHide)="onClose()"
+>
+  <div class="p-fluid">
+    <div class="p-field">
+      <label for="social_media_link">Social Media Link:</label>
+      <p id="social_media_link" class="data">{{ data?.social_media_link }}</p>
+    </div>
+
+    <div class="p-field">
+      <label for="social_media_name">Social Media Name:</label>
+      <p id="social_media_name" class="data">{{ data?.social_media_name }}</p>
+    </div>
+
+    <div class="p-field">
+      <label for="description">Description:</label>
+      <p id="description" class="data">{{ data?.description }}</p>
+    </div>
+
+    <div class="p-dialog-footer">
+      <button pButton type="button" label="Cancel" icon="pi pi-times" (click)="onCancel()"></button>
+      <button pButton type="button" label="Delete" icon="pi pi-trash" (click)="onDelete()"></button>
+    </div>
+  </div>
+</p-dialog>

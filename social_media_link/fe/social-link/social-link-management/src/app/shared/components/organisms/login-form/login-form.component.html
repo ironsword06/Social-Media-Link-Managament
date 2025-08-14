@@ -1,0 +1,17 @@
+<form [formGroup]="loginForm" (ngSubmit)="loginBtn()">
+  <app-input
+    label="Email"
+    id="email"
+    type="email"
+    [control]="emailControl"
+    [required]="true"
+  ></app-input>
+  <app-input
+    label="Password"
+    id="password"
+    type="password"
+    [control]="passwordControl"
+    [required]="true"
+  ></app-input>
+  <app-button label="Login" type="submit"></app-button>
+</form>

@@ -1,0 +1,30 @@
+<nav class="navbar">
+    <div class="header-container">
+      <div class="navbar-logo">
+        <a [href]="'https://github.com/ironsword06'"  target="_blank" (click)="handleLinkClick('https://github.com/ironsword06')">
+        <img src="/assets/images/logo.png" alt="Logo" class="logo">
+      </a>
+      </div>
+      
+
+      <div class="menu-items">
+        <a *ngFor="let item of menuItems" [href]="item.href" target="_blank" (click)="handleLinkClick(item.href)">{{ item.label }}</a>
+      </div>
+    
+
+      <div class="social-media-icons">
+        <a *ngFor="let icon of socialMediaIcons" [href]="icon.href" target="_blank" class="social-icon" (click)="handleLinkClick(icon.href)">
+          <i class="pi {{ icon.class }}"></i>
+        </a>
+        <span class="separator"></span>
+        <span class="extra-info">{{user.username}}</span>
+        <i class="pi pi-user-edit" style="font-size: 25px" (click)="openUserInfoModal(user)"></i>
+        <button class="logout-button" (click)=" logout()">Logout 
+          <i class="pi pi-sign-out"></i>
+        </button>
+        <a href="/logout" class="social-icon logout-icon">
+          <i></i>
+        </a>
+      </div>
+    </div>
+  </nav>

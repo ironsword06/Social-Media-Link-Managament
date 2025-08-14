@@ -1,0 +1,72 @@
+<p-dialog
+  header="User Info"
+  [(visible)]="visible"
+  [modal]="true"
+  [closable]="true"
+  (onHide)="onCancel()"
+>
+  <ng-container *ngIf="!isEditMode; else editTemplate">
+    <div class="p-fluid">
+      <div class="p-field">
+        <label for="username">Username:</label>
+        <p id="username" class="data">{{ data?.username }}</p>
+      </div>
+
+      <div class="p-field">
+        <label for="email">Email:</label>
+        <p id="email" class="data">{{ data?.email }}</p>
+      </div>
+
+      <div class="p-dialog-footer">
+        <button pButton type="button" label="Cancel" icon="pi pi-times" (click)="onCancel()"></button>
+        <button pButton type="button" label="Edit" icon="pi pi-user-edit" (click)="onEdit()"></button>
+      </div>
+    </div>
+  </ng-container>
+
+  <ng-template #editTemplate>
+    <form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+      <div class="p-fluid">
+        <div class="p-field">
+          <label for="username">Username</label>
+          <input id="username" pInputText formControlName="username" />
+          <small *ngIf="usernameControl.invalid && usernameControl.touched">
+            Username is required.
+          </small>
+        </div>
+
+        <div class="p-field">
+          <label for="email">Email</label>
+          <input id="email" pInputText formControlName="email" />
+          <small *ngIf="emailControl.invalid && emailControl.touched">
+            Please enter a valid email.
+          </small>
+        </div>
+
+        <div class="p-field">
+          <label for="password">Password</label>
+          <input id="password" pInputText type="password" formControlName="password" />
+          <small *ngIf="passwordControl.invalid && passwordControl.touched">
+            Password must be 8-24 characters long, include at least one uppercase letter and one special character.
+          </small>
+        </div>
+
+        <div class="p-field">
+          <label for="confirmPassword">Confirm Password</label>
+          <input id="confirmPassword" pInputText type="password" formControlName="confirmPassword" />
+          <small *ngIf="confirmPasswordControl.invalid && confirmPasswordControl.touched">
+            Confirm password is required.
+          </small>
+          <small *ngIf="passwordMismatch">
+            Passwords don't match.
+          </small>
+        </div>
+
+        <div class="p-dialog-footer">
+          <button pButton type="button" label="Cancel" icon="pi pi-times" (click)="onCancelEdit()"></button>
+          <button pButton type="submit" label="Submit" icon="pi pi-check" [disabled]="editForm.invalid || passwordMismatch"></button>
+        </div>
+      </div>
+    </form>
+  </ng-template>
+</p-dialog>

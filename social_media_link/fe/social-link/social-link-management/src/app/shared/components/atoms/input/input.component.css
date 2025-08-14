@@ -1,0 +1,40 @@
+.input-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.input-group input.ng-invalid.ng-touched {
+  border-color: red;
+}
+
+.input-group p.error {
+  color: red;
+  font-size: 14px;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}

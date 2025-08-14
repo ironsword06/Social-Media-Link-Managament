@@ -1,0 +1,29 @@
+"id";"user_id";"social_media_name";"social_media_link";"description";"isActive";"created_at";"updated_at";"updated_by_role_id"
+1;9;"Twitter";"https://twitter.com/testuser";"Test user's Twitter account";0;"2024-08-21 16:54:20";"2024-09-09 11:22:12";2
+2;9;"updated";"fakebook";"Updated descriptissson";0;"2024-08-21 16:54:40";"2024-09-09 11:22:12";2
+3;10;"deneme mf";"deneme mf";"deneme mt";0;"2024-08-21 17:44:02";"2024-09-09 11:02:33";1
+4;11;"Twitter";"https://twitter.com/alican";"Ki�isel Twitter hesab�m.";1;"2024-08-23 17:06:13";"2024-08-23 17:06:13";2
+5;11;"�nstagram";"https://�nstagram.com/alican";"Ki�isel ig hesab�m.";1;"2024-08-23 17:06:36";"2024-08-23 17:06:36";2
+6;11;"fb";"https://fb.com/alicanaa";"Ki�isel fb hesab�m.";0;"2024-08-23 17:07:06";"2024-09-08 16:53:10";1
+7;11;"sdsasas";"https://sasasa.com/alican";"asasas aaaaa hesab�m.";0;"2024-08-23 17:07:14";"2024-08-23 17:15:46";2
+8;11;"denemelink";"denemelink";"denemelink";0;"2024-09-07 15:37:40";"2024-09-08 03:31:12";1
+9;11;"asdasdas";"asdasdasd";"dasdasd";0;"2024-09-07 15:38:19";"2024-09-08 03:31:12";1
+10;11;"kjsfbjksdfj";"hasdhash";"jskdfjkbsdfsdf";0;"2024-09-08 02:07:44";"2024-09-08 03:31:11";1
+11;11;"dudeaaaaaaaaaaaaaaaaaaaaaaa";"dudueaaaaa";"dudeeeeaaaaaaaaaaaaa";0;"2024-09-08 02:08:18";"2024-09-08 03:31:11";1
+12;11;"asdasd";"asdasd";"asd";0;"2024-09-08 02:48:24";"2024-09-08 03:31:10";1
+13;11;"dasda";"asdas";"sdasd";0;"2024-09-08 02:48:49";"2024-09-08 03:31:09";1
+14;11;"asdasd";"asdasd";"asdasd";0;"2024-09-08 02:49:25";"2024-09-08 03:31:09";1
+15;11;"aaaaaaaaaaaaaaaaaaaaaa";"aaaaaaaaaaaaaaaa";"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";0;"2024-09-08 02:49:48";"2024-09-08 03:31:08";1
+16;11;"ccccccccccccccccccssssssssssss";"ccccccccs";"cccccccccccccccccccccccsss";0;"2024-09-08 02:50:34";"2024-09-08 03:31:05";1
+17;11;"qweqwe";"qweqwe";"qweqweqwe";0;"2024-09-08 02:52:08";"2024-09-08 03:31:08";1
+18;11;"asasaccc";"asasaccc";"asasacccc";0;"2024-09-08 03:15:43";"2024-09-08 03:31:02";1
+19;11;"sssaa";"sssssaa";"ssaa";0;"2024-09-08 03:20:06";"2024-09-08 03:31:01";1
+20;11;"ssssssssss";"s";"sssssss";0;"2024-09-08 03:32:52";"2024-09-08 16:52:31";1
+23;16;"yarendeneeeeeee";"https://www.instagram.com";"food, image ...";1;"2024-09-08 22:54:13";"2024-09-09 11:08:39";1
+24;16;"yareny";"https://www.facebook.com";"anything";0;"2024-09-08 22:55:12";"2024-09-08 22:55:22";2
+25;16;"yarennn";"https://www.linkedln.com";"";1;"2024-09-08 22:59:26";"2024-09-08 22:59:26";2
+26;11;"denemeaaaa";"https://www.example.com";"denemedeneme";1;"2024-09-09 11:05:56";"2024-09-09 11:06:23";1
+27;11;"added";"https://www.example.com";"aded";0;"2024-09-09 11:10:19";"2024-09-09 11:10:23";1
+28;17;"denemeeee";"https://www.denemeeee.com";"deneme";0;"2024-09-09 11:30:00";"2024-09-09 11:31:07";2
+29;17;"asd";"https://www.example.cccc";"asd";0;"2024-09-09 11:31:01";"2024-09-09 11:31:43";2
+30;17;"sad";"https://www.exampssssle.com";"asdasd";0;"2024-09-09 11:31:15";"2024-09-09 11:31:43";2

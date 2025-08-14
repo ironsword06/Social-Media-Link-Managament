@@ -1,0 +1,9 @@
+.password-mismatch {
+    color: red;
+  }
+  
+  button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+  }
+  

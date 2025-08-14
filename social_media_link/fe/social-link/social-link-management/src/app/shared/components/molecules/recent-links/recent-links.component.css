@@ -1,0 +1,42 @@
+.recent-links {
+  background-color: #ffffff; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 15px; 
+  margin-top: 20px; 
+}
+
+.recent-links h3 {
+  font-size: 18px; 
+  font-weight: bold; 
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.recent-links ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0; 
+}
+
+.recent-links li {
+  padding: 10px; 
+  border-bottom: 1px solid #ddd; 
+}
+
+.recent-links li:last-child {
+  border-bottom: none; 
+}
+
+.recent-links a {
+  text-decoration: none;
+  color: #007bff; 
+  font-size: 16px; 
+  transition: color 0.3s ease; 
+}
+
+.recent-links a:hover {
+  color: #6A5ACD; 
+  text-decoration: underline;
+}

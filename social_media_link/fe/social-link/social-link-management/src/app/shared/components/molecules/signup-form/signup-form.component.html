@@ -1,0 +1,11 @@
+<form [formGroup]="signupForm" (ngSubmit)="signup()">
+    <app-input label="Username" id="username" [control]="usernameControl" [required]="true"></app-input>
+    <app-input label="Email" id="signupEmail" type="email" [control]="emailControl" [required]="true"></app-input>
+    <app-input label="Password" id="signupPassword" type="password" [control]="passwordControl" [required]="true"></app-input>
+    <p *ngIf="!passwordControl.value">Password must be 8-24 characters long, include at least one uppercase letter and one special character.</p>
+    <app-input label="Confirm Password" id="confirmPassword" type="password" [control]="confirmPasswordControl" [required]="true"></app-input>
+    <div *ngIf="passwordMismatch">
+      <p class="error" style="color: red;">Passwords don't match</p>
+    </div>
+    <app-button label="Sign Up" type="submit" [disabled]="signupForm.invalid || passwordMismatch"></app-button>
+  </form>

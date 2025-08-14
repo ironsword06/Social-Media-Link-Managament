@@ -1,0 +1,20 @@
+<div *ngIf="isLoginVisible">
+  <h2>Login</h2>
+  <app-login-form [loginForm]="loginForm" (login)="onLogin()"></app-login-form>
+  <p>
+    Don't have an account?
+    <a (click)="onShowSignup()" class="login-link">Sign up here</a>
+  </p>
+</div>
+<div *ngIf="isSignupVisible">
+  <h2>Sign Up</h2>
+  <app-signup-form
+    [signupForm]="signupForm"
+    [passwordMismatch]="passwordMismatch"
+    (signupClicked)="onSignup()"
+  ></app-signup-form>
+  <p>
+    Already have an account?
+    <a (click)="onShowLogin()" class="login-link">Login here</a>
+  </p>
+</div>

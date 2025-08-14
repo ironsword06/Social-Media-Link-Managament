@@ -1,0 +1,29 @@
+atom-button {
+    flex-shrink: 0;
+  }
+  
+  .rounded-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 6px 12px; 
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px; 
+  }
+  
+  .rounded-button:hover {
+    background-color: #6A5ACD;
+    color: white;
+  }
+  
+  mat-icon {
+    margin-right: px;
+  }
+  

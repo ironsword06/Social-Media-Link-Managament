@@ -1,0 +1,32 @@
+<p-dialog 
+  header="Social Media Form" 
+  [(visible)]="visible"
+  [modal]="true"
+  [closable]="true" 
+  (onHide)="onClose()"
+>
+  <form [formGroup]="socialMediaForm" (ngSubmit)="onSubmit()">
+    <div class="p-fluid">
+      <div class="p-field">
+        <label for="social_media_link">Social Media Link</label>
+        <input id="social_media_link" linkValidator pInputText formControlName="social_media_link"/>
+        <small class="helper-text">Please enter a valid URL (e.g., https://www.example.com)</small>
+      </div>
+
+      <div class="p-field">
+        <label for="social_media_name">Social Media Name</label>
+        <input id="social_media_name" pInputText formControlName="social_media_name"/>
+      </div>
+
+      <div class="p-field">
+        <label for="description">Description</label>
+        <textarea id="description" pInputTextarea formControlName="description"></textarea>
+      </div>
+
+      <div class="p-dialog-footer">
+        <button pButton type="button" label="Clear" icon="pi pi-refresh" (click)="onClear()"></button>
+        <button pButton type="submit" label="Submit" icon="pi pi-check"></button>
+      </div>
+    </div>
+  </form>
+</p-dialog>

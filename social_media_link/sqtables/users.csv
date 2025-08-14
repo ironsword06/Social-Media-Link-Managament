@@ -1,0 +1,16 @@
+"id";"username";"email";"password";"isActive";"c_date";"u_date";"role_id"
+1;"alicandemene";"ali.can@example.com";"securePassword123";0;"2024-08-21 01:06:56";"2024-08-21 01:11:17";2
+2;"alicaaandemene";"ali.can@example.sscom";"securePassworsssd123";0;"2024-08-21 01:09:34";"2024-08-21 01:11:17";2
+3;"aliaaaacaaandemene";"ali.can@example.saascom";"securaaePassworsssd123";0;"2024-08-21 01:12:01";"2024-08-21 01:12:01";1
+4;"alaae";"alaaaa@gg.saascom";"secu123";0;"2024-08-21 01:16:38";"2024-08-21 01:16:38";0
+5;"alaaaae";"alaaaa@gg.saaaaaaaaaaaaascom";"secuaaaaa123";0;"2024-08-21 01:17:11";"2024-08-21 01:17:11";0
+6;"john_asdsdoe";"johsdddexample.com";"$2a$10$Yz86bB4.uBhZY03QwYZUJe3Fwf0lU3ld9ZEpyzOZ/Wh94VWDSni1y";1;"2024-08-21 01:47:40";"2024-08-21 01:47:40";2
+7;"acd";"acd@acd@acd";"$2a$10$55oZedNK.V1ctgPHu36CIeQR5KG4vZfcJP472KfADLjxrfan9y4M2";1;"2024-08-21 01:48:35";"2024-08-21 01:48:35";2
+9;"testuser";"testuser@example.com";"$2b$10$hlnNjYNfh3nxaUqG/pcTh.8v7vqBroQ9pMVy.fATkUFKSp10QDCIO";0;"2024-08-21 16:50:52";"2024-09-09 11:22:12";2
+10;"aliaaa";"acd@gg.cc";"$2b$10$RpxmE/WsapztyyXFZDr/VucOO.nsNcnkyY507r8uHv32beuxpRL/W";0;"2024-08-21 17:42:48";"2024-09-09 11:01:05";2
+11;"Ali Can D";"alican@mail.com";"$2b$10$RU7MISgj0AUJTgYXWmQPlu/UU8IMNpzAjVMCR9FpYXe2W1FgM6xPy";1;"2024-08-23 17:00:09";"2024-09-09 11:10:37";1
+12;"asd";"asdads@gg.cc";"$2b$10$kHOTqxqLUYkCJHhV8cDJH.RaCFcGT71H6E2OJzP1pGis4Pn6XTyne";1;"2024-09-02 18:13:19";"2024-09-02 18:13:19";2
+13;"asdasdasd";"asdas@sss";"$2b$10$rdoQFKY.tJGz4Bt76x1v0OcKyx13aiYck6XKuOY13IT8SehfDy3n.";1;"2024-09-03 11:22:13";"2024-09-03 11:22:13";2
+14;"ahmetcan";"ahmetcan@mail.com";"$2b$10$1d8yy78UodpYsNO9BTOyqu60jh7Nvr0GmqzXLLgujzxGZhG9YZKv6";1;"2024-09-08 16:19:37";"2024-09-08 16:19:37";2
+16;"yaren ";"yaren@yopmail.com";"$2b$10$/fSrpoY9IH9acA7Z9YhKSuQJayvx6VTrXKgT4B55RDBBG8FnxVdFi";1;"2024-09-08 22:52:09";"2024-09-09 10:45:39";2
+17;"denemusersa";"denemeuser@mail.com";"$2b$10$iIrTvKW4cOfkKPwBfGenGecXxWngG62Q3w5Y/pkbOdl0yxzLY8eqG";0;"2024-09-09 11:29:02";"2024-09-09 11:31:43";2
